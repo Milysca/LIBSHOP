@@ -1,0 +1,119 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+body{
+	background-color:orange;
+	font-family:arial,sans-serif;
+	font-size:15px;
+	background:#f2ffff;
+}
+header nav
+{
+	float:right;
+	margin-top:0px;
+}
+header nav ul li
+{
+	float:left;
+	display:inline-block;
+}
+header nav ul li a
+{
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-right:10px;
+	background-color:048b9aS;
+}
+header nav ul li a:hover
+{
+	background-color:#3498db;
+}
+
+form {
+  background-color: #f2ffff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Largeur maximale du cadre du formulaire */
+  width: 100%; /* Ajout d'une largeur de 100% pour s'adapter au conteneur parent */
+  margin: 0 auto; /* Pour centrer horizontalement le formulaire */
+}
+
+h1 {
+ 
+  font-weight:normal;
+	text-transform:uppercase; 
+	text-align:center;
+}
+	.logal{
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:100px;
+	height:auto;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.wrapper-image{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	
+	
+	
+}
+.image {
+	width:100px;
+	margin:100px;
+	padding:10px;
+	text-align:center;
+	border:3px solid #ccc;
+	background-color:#f2ffff;
+	border-radius:10px;
+}
+.image img{
+	width:100px;
+	height:100px;
+	object-fit:cover;
+		border-radius:15px;
+	
+}
+
+.info h3{
+	margin-top:10px;
+	font-size:18px;
+	font-family:"Arial",sans serif;
+	color:#333;
+}
+.info p{
+margin-top:5px;
+color:red;
+font-size:16px;
+font-family:"Arial",sans serif;
+}
